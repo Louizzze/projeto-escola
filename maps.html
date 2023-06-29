@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/maps.css" />
+    <script src="/assets/js/script.js"></script>
+    <link href="https://css.gg/css" rel="stylesheet" />
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <div id="screenlock" class="hide" >
+      <div class="screenlock-overlay" onclick="hideScreenLock()"></div>
+      <div class="menu-screenlock">
+        <a href="index.html">Home</a>
+        <a href="index.html">Comunidade</a>
+        <a href="index.html">Lojas</a>
+        <a href="#" onclick="hideScreenLock()">X</a>
+      </div>
+    </div>
+    <div class="map"></div>
+    <div class="menu">
+      <div class="menu-img">
+        <a href="#" onclick="showScreenLock()">
+          <img src="assets/svg/bars.svg" />
+        </a>
+      </div>
+      <div class="text">
+        <h3>Lugares Próximos</h3>
+      </div>
+      <div class="options">
+        <div class="options-dropdown">
+          <select name="options-dropdown" id="options-dropdown">
+            <option value="-">-</option>
+            <option value="vegano">Vegano</option>
+            <option value="apenas vegano">Apenas vegano</option>
+            <option value="vegetariano">Vegetariano</option>
+            <option value="apenas vegetariano">Apenas Vegetariano</option>
+          </select>
+        </div>
+        <div class="options-checkbox">
+          <form>
+            <input type="checkbox" name="lojas" id="lojas" value="lojas" />
+            <label for="lojas">lojas</label>
+            <input
+              type="checkbox"
+              name="restaurantes"
+              id="restaurantes"
+              value="restaurantes" />
+            <label for="restaurantes">restaurantes</label><br />
+          </form>
+        </div>
+      </div>
+      <div class="establishment">
+        <div class="card-establishment">
+          <div class="card-img">
+            <img src="https://placedog.net/100/100" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Estabelecimento 1</h3>
+            <p>Descrição do estabelecimento 1</p>
+          </div>
+        </div>
+        <div class="card-establishment">
+          <div class="card-img">
+            <img src="https://placedog.net/100/100" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Estabelecimento 2</h3>
+            <p>Descrição do estabelicimento 2</p>
+          </div>
+        </div>
+        <div class="card-establishment">
+          <div class="card-img">
+            <img src="https://placedog.net/100/100" alt="" />
+          </div>
+          <div class="card-content">
+            <h3>Estabelecimento 3</h3>
+            <p>Descrição do estabelicimento 3</p>
+          </div>
+        </div>
+        <div class="buttons">
+          <a href=""><p>1</p></a>
+          <a href=""><p>2</p></a>
+          <a href=""><p>3</p></a>
+          <a href=""><p>4</p></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

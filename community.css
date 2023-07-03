@@ -1,0 +1,12 @@
+.articles{
+    margin-top:5px
+}
+
+.articles h2.subtitle{
+    padding: 0 10px;
+    padding-top: 20px;
+}
+
+p.rating{
+    font-size: 20px;
+}

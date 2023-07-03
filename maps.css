@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+
+html{
+}
+.establishment{
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+.card-establishment{
+    border: 1px solid red;
+}
+
+.card-establishment img{
+    border-radius: 5px;
+}
